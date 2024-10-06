@@ -1,0 +1,891 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:13:54 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Mon Sep 30 19:24:16 2024
+# Process ID: 168526
+# Current directory: /home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd
+# Command line: vivado aquila_mpd.xpr
+# Log file: /home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/vivado.log
+# Journal file: /home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/vivado.jou
+# Running On: LAPTOP-16OE0O8T, OS: Linux, CPU Frequency: 2419.199 MHz, CPU Physical cores: 4, Host memory: 12544 MB
+#-----------------------------------------------------------
+start_gui
+open_project aquila_mpd.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k24c:part0:1.0 available at /vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k24c/1.0/board.xml as part xck24-ubva530-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k24i:part0:1.0 available at /vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k24i/1.0/board.xml as part xck24-ubva530-2lvi-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26c:part0:1.2 available at /vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26c/1.2/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26c:part0:1.3 available at /vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26c/1.3/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26c:part0:1.4 available at /vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26c/1.4/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26i:part0:1.2 available at /vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26i/1.2/board.xml as part xck26-sfvc784-2lvi-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26i:part0:1.3 available at /vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26i/1.3/board.xml as part xck26-sfvc784-2lvi-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26i:part0:1.4 available at /vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26i/1.4/board.xml as part xck26-sfvc784-2lvi-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at /vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at /vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at /vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.4 available at /vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.4/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.5 available at /vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.5/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at /vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kd240_som:part0:1.0 available at /vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kd240_som/1.0/board.xml as part xck24-ubva530-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kr260_som:part0:1.0 available at /vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kr260_som/1.0/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kr260_som:part0:1.1 available at /vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kr260_som/1.1/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kv260_som:part0:1.2 available at /vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kv260_som/1.2/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kv260_som:part0:1.3 available at /vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kv260_som/1.3/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kv260_som:part0:1.4 available at /vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kv260_som/1.4/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at /vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at /vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at /vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at /vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at /vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.2 available at /vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at /vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.1 available at /vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at /vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at /vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at /vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at /vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at /vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at /vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at /vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu128/production/1.0/board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at /vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at /vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.0 available at /vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/production/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at /vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at /vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at /vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at /vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at /vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at /vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.0 available at /vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.1 available at /vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at /vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at /vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at /vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at /vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at /vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.2 available at /vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at /vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.1 available at /vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at /vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.1 available at /vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.2 available at /vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.0 available at /vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.1 available at /vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc702:part0:1.4 available at /vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc702/1.4/board.xml as part xc7z020clg484-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at /vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc706/1.4/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at /vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.3/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at /vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.4/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu104:part0:1.1 available at /vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu104/1.1/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.4 available at /vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu106/2.4/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.5 available at /vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu106/2.5/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.6 available at /vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu106/2.6/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at /vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at /vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at /vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at /vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at /vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at /vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at /vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at /vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at /vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at /vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at /vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/vivado/Vivado/2023.2/data/ip'.
+open_project: Time (s): cpu = 00:02:32 ; elapsed = 00:00:50 . Memory (MB): peak = 7790.406 ; gain = 363.781 ; free physical = 8337 ; free virtual = 12577
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'soc_tb'
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-13660] Precompiled IP simulation library mode is enabled (default). The design IP libraries will be referenced from the compiled library path. Please note that if the precompiled version of the library is not found from the path or the IP is in locked state, then the library source files for these IPs will be compiled locally as part of the compile order.
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from '/vivado/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File '/vivado/Vivado/2023.2/data/xsim/xsim.ini' copied to run dir:'/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'soc_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported '/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.sim/sim_1/behav/xsim/uartboot.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.sim/sim_1/behav/xsim'
+xvlog --incr --relax -prj soc_tb_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.srcs/sources_1/new/profile_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module profile_unit
+Waiting for jobs to finish...
+No pending jobs, compilation finished.
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.sim/sim_1/behav/xsim'
+xelab --incr --debug typical --relax --mt 8 -d ARTY=true -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot soc_tb_behav xil_defaultlib.soc_tb xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: /vivado/Vivado/2023.2/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -d ARTY=true -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot soc_tb_behav xil_defaultlib.soc_tb xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-5021] port 'm_data_i' is not connected on this instance [/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.srcs/sources_1/imports/src/core_rtl/core_top.v:946]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.srcs/sources_1/new/profile_unit.v" Line 1. Module profile_unit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.srcs/sources_1/new/profile_unit.v" Line 1. Module profile_unit doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.pipeline_control
+Compiling module xil_defaultlib.forwarding_unit
+Compiling module xil_defaultlib.distri_ram(ENTRY_NUM=64,XLEN=64)
+Compiling module xil_defaultlib.bpu_default
+Compiling module xil_defaultlib.reg_file_default
+Compiling module xil_defaultlib.program_counter
+Compiling module xil_defaultlib.fetch
+Compiling module xil_defaultlib.decode
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.muldiv
+Compiling module xil_defaultlib.bcu
+Compiling module xil_defaultlib.execute
+Compiling module xil_defaultlib.memory
+Compiling module xil_defaultlib.writeback
+Compiling module xil_defaultlib.csr_file
+Compiling module xil_defaultlib.profile_unit
+Compiling module xil_defaultlib.core_top
+Compiling module xil_defaultlib.sram_dp(N_ENTRIES=16384)
+Compiling module xil_defaultlib.clint
+Compiling module xil_defaultlib.atomic_unit
+Compiling module xil_defaultlib.aquila_top
+Compiling module xil_defaultlib.uart(BAUD=16'b01101100100)
+Compiling module xil_defaultlib.soc_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot soc_tb_behav
+execute_script: Time (s): cpu = 00:00:17 ; elapsed = 00:00:13 . Memory (MB): peak = 7790.422 ; gain = 0.000 ; free physical = 7291 ; free virtual = 11763
+INFO: [USF-XSim-69] 'elaborate' step finished in '13' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "soc_tb_behav -key {Behavioral:sim_1:Functional:soc_tb} -tclbatch {soc_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source soc_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+xsim: Time (s): cpu = 00:00:30 ; elapsed = 00:00:09 . Memory (MB): peak = 7940.625 ; gain = 144.762 ; free physical = 7104 ; free virtual = 11572
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'soc_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:01:02 ; elapsed = 00:00:29 . Memory (MB): peak = 7940.625 ; gain = 150.203 ; free physical = 7104 ; free virtual = 11571
+restart
+INFO: [Wavedata 42-604] Simulation restarted
+run 35 ms
+=======================================================================
+Copyright (c) 2019-2024, EISL@NYCU, Hsinchu, Taiwan.
+The Aquila SoC is ready.
+Waiting for an ELF file to be sent from the UART ...
+
+Program entry point at 0x2E8C, size = 0x8A80.
+-----------------------------------------------------------------------
+coremark initializing ... executing, wait about 10 seconds ...
+
+2K performance run parameters for coremark.
+CoreMark Size    : 666
+Total ticks      : 49653
+Total time (secs): 0.049653
+Iterations/Sec   : 100.698850
+Iterations       : 5
+Compiler version : GCC13.2.0
+Compiler flags   : -Wall -O2 -I../elibc -fno-builtin -march=rv32ima_zicsr_zifencei -mstrict-align -mabi=ilp32 -fno-inline-small-functions -DITERATIONS=5 -DUSE_CLOCK=1
+Memory location  : HEAP
+seedcrc          : 0x0000e9f5
+[0]crclist       : 0x0000e714
+[0]crcmatrix     : 0x00001fd7
+[0]crcstate      : 0x00008e3a
+[0]crcfinal      : 0x0000f24c
+Correct operation validated. See README.md for run and reporting rules.
+CoreMark 1.0 : 100.698850 / GCC13.2.0 -Wall -O2 -I../elibc -fno-builtin -march=rv32ima_zicsr_zifencei -mstrict-align -mabi=ilp32 -fno-inline-small-functions -DITERATIONS=5 -DUSE_CLOCK=1 / HEAP
+hello everyone-----------------------------------------------------------------------
+Program exit with a status code 0
+Press <reset> on the FPGA board to reboot the cpu ...
+
+
+Simulation finished.
+$finish called at time : 34775345 ns : File "/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.srcs/sim_1/imports/soc_rtl/soc_tb.v" Line 207
+run: Time (s): cpu = 00:01:23 ; elapsed = 00:03:16 . Memory (MB): peak = 7970.625 ; gain = 20.000 ; free physical = 7431 ; free virtual = 12261
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+close_sim
+INFO: xsimkernel Simulation Memory Usage: 105796 KB (Peak: 164120 KB), Simulation CPU Usage: 195260 ms
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'soc_tb'
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-13660] Precompiled IP simulation library mode is enabled (default). The design IP libraries will be referenced from the compiled library path. Please note that if the precompiled version of the library is not found from the path or the IP is in locked state, then the library source files for these IPs will be compiled locally as part of the compile order.
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from '/vivado/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File '/vivado/Vivado/2023.2/data/xsim/xsim.ini' copied to run dir:'/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'soc_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported '/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.sim/sim_1/behav/xsim/uartboot.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.sim/sim_1/behav/xsim'
+xvlog --incr --relax -prj soc_tb_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.srcs/sources_1/imports/src/core_rtl/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.srcs/sources_1/imports/src/core_rtl/aquila_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module aquila_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.srcs/sources_1/imports/src/core_rtl/atomic_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module atomic_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.srcs/sources_1/imports/src/core_rtl/bcu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bcu
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.srcs/sources_1/imports/src/core_rtl/bpu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bpu
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.srcs/sources_1/imports/src/core_rtl/clint.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clint
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.srcs/sources_1/imports/src/core_rtl/core_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module core_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.srcs/sources_1/imports/src/core_rtl/csr_file.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module csr_file
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.srcs/sources_1/imports/src/core_rtl/decode.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decode
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.srcs/sources_1/imports/src/core_rtl/distri_ram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module distri_ram
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.srcs/sources_1/imports/src/core_rtl/execute.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module execute
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.srcs/sources_1/imports/src/core_rtl/fetch.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fetch
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.srcs/sources_1/imports/src/core_rtl/forwarding_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module forwarding_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.srcs/sources_1/imports/src/core_rtl/memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.srcs/sources_1/imports/src/core_rtl/muldiv.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module muldiv
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.srcs/sources_1/imports/src/core_rtl/pipeline_control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pipeline_control
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.srcs/sources_1/new/profile_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module profile_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.srcs/sources_1/imports/src/core_rtl/program_counter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module program_counter
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.srcs/sources_1/imports/src/core_rtl/reg_file.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module reg_file
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.srcs/sources_1/imports/src/core_rtl/sram_dp.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sram_dp
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.srcs/sources_1/imports/src/soc_rtl/uart.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.srcs/sources_1/imports/src/core_rtl/writeback.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module writeback
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.srcs/sim_1/imports/soc_rtl/soc_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module soc_tb
+Waiting for jobs to finish...
+No pending jobs, compilation finished.
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.sim/sim_1/behav/xsim'
+xelab --incr --debug typical --relax --mt 8 -d ARTY=true -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot soc_tb_behav xil_defaultlib.soc_tb xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: /vivado/Vivado/2023.2/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -d ARTY=true -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot soc_tb_behav xil_defaultlib.soc_tb xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-5021] port 'm_data_i' is not connected on this instance [/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.srcs/sources_1/imports/src/core_rtl/core_top.v:952]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.pipeline_control
+Compiling module xil_defaultlib.forwarding_unit
+Compiling module xil_defaultlib.distri_ram(ENTRY_NUM=64,XLEN=64)
+Compiling module xil_defaultlib.bpu_default
+Compiling module xil_defaultlib.reg_file_default
+Compiling module xil_defaultlib.program_counter
+Compiling module xil_defaultlib.fetch
+Compiling module xil_defaultlib.decode
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.muldiv
+Compiling module xil_defaultlib.bcu
+Compiling module xil_defaultlib.execute
+Compiling module xil_defaultlib.memory
+Compiling module xil_defaultlib.writeback
+Compiling module xil_defaultlib.csr_file
+Compiling module xil_defaultlib.profile_unit
+Compiling module xil_defaultlib.core_top
+Compiling module xil_defaultlib.sram_dp(N_ENTRIES=16384)
+Compiling module xil_defaultlib.clint
+Compiling module xil_defaultlib.atomic_unit
+Compiling module xil_defaultlib.aquila_top
+Compiling module xil_defaultlib.uart(BAUD=16'b01101100100)
+Compiling module xil_defaultlib.soc_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot soc_tb_behav
+execute_script: Time (s): cpu = 00:00:19 ; elapsed = 00:00:17 . Memory (MB): peak = 8498.883 ; gain = 0.000 ; free physical = 7035 ; free virtual = 11655
+INFO: [USF-XSim-69] 'elaborate' step finished in '16' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "soc_tb_behav -key {Behavioral:sim_1:Functional:soc_tb} -tclbatch {soc_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source soc_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+xsim: Time (s): cpu = 00:00:20 ; elapsed = 00:00:12 . Memory (MB): peak = 8499.742 ; gain = 0.859 ; free physical = 6929 ; free virtual = 11425
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'soc_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:43 ; elapsed = 00:00:32 . Memory (MB): peak = 8499.742 ; gain = 0.859 ; free physical = 6929 ; free virtual = 11425
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'soc_tb'
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-13660] Precompiled IP simulation library mode is enabled (default). The design IP libraries will be referenced from the compiled library path. Please note that if the precompiled version of the library is not found from the path or the IP is in locked state, then the library source files for these IPs will be compiled locally as part of the compile order.
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from '/vivado/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File '/vivado/Vivado/2023.2/data/xsim/xsim.ini' copied to run dir:'/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'soc_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported '/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.sim/sim_1/behav/xsim/uartboot.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.sim/sim_1/behav/xsim'
+xvlog --incr --relax -prj soc_tb_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.srcs/sources_1/imports/src/core_rtl/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.srcs/sources_1/imports/src/core_rtl/aquila_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module aquila_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.srcs/sources_1/imports/src/core_rtl/atomic_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module atomic_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.srcs/sources_1/imports/src/core_rtl/bcu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bcu
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.srcs/sources_1/imports/src/core_rtl/bpu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bpu
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.srcs/sources_1/imports/src/core_rtl/clint.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clint
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.srcs/sources_1/imports/src/core_rtl/core_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module core_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.srcs/sources_1/imports/src/core_rtl/csr_file.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module csr_file
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.srcs/sources_1/imports/src/core_rtl/decode.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decode
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.srcs/sources_1/imports/src/core_rtl/distri_ram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module distri_ram
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.srcs/sources_1/imports/src/core_rtl/execute.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module execute
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.srcs/sources_1/imports/src/core_rtl/fetch.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fetch
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.srcs/sources_1/imports/src/core_rtl/forwarding_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module forwarding_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.srcs/sources_1/imports/src/core_rtl/memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.srcs/sources_1/imports/src/core_rtl/muldiv.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module muldiv
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.srcs/sources_1/imports/src/core_rtl/pipeline_control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pipeline_control
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.srcs/sources_1/new/profile_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module profile_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.srcs/sources_1/imports/src/core_rtl/program_counter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module program_counter
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.srcs/sources_1/imports/src/core_rtl/reg_file.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module reg_file
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.srcs/sources_1/imports/src/core_rtl/sram_dp.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sram_dp
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.srcs/sources_1/imports/src/soc_rtl/uart.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.srcs/sources_1/imports/src/core_rtl/writeback.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module writeback
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.srcs/sim_1/imports/soc_rtl/soc_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module soc_tb
+Waiting for jobs to finish...
+No pending jobs, compilation finished.
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.sim/sim_1/behav/xsim'
+xelab --incr --debug typical --relax --mt 8 -d ARTY=true -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot soc_tb_behav xil_defaultlib.soc_tb xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: /vivado/Vivado/2023.2/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -d ARTY=true -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot soc_tb_behav xil_defaultlib.soc_tb xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-5021] port 'm_data_i' is not connected on this instance [/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.srcs/sources_1/imports/src/core_rtl/core_top.v:952]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.pipeline_control
+Compiling module xil_defaultlib.forwarding_unit
+Compiling module xil_defaultlib.distri_ram(ENTRY_NUM=64,XLEN=64)
+Compiling module xil_defaultlib.bpu_default
+Compiling module xil_defaultlib.reg_file_default
+Compiling module xil_defaultlib.program_counter
+Compiling module xil_defaultlib.fetch
+Compiling module xil_defaultlib.decode
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.muldiv
+Compiling module xil_defaultlib.bcu
+Compiling module xil_defaultlib.execute
+Compiling module xil_defaultlib.memory
+Compiling module xil_defaultlib.writeback
+Compiling module xil_defaultlib.csr_file
+Compiling module xil_defaultlib.profile_unit
+Compiling module xil_defaultlib.core_top
+Compiling module xil_defaultlib.sram_dp(N_ENTRIES=16384)
+Compiling module xil_defaultlib.clint
+Compiling module xil_defaultlib.atomic_unit
+Compiling module xil_defaultlib.aquila_top
+Compiling module xil_defaultlib.uart(BAUD=16'b01101100100)
+Compiling module xil_defaultlib.soc_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot soc_tb_behav
+execute_script: Time (s): cpu = 00:00:12 ; elapsed = 00:00:10 . Memory (MB): peak = 8589.898 ; gain = 0.000 ; free physical = 6678 ; free virtual = 11172
+INFO: [USF-XSim-69] 'elaborate' step finished in '10' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "soc_tb_behav -key {Behavioral:sim_1:Functional:soc_tb} -tclbatch {soc_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source soc_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'soc_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:23 ; elapsed = 00:00:18 . Memory (MB): peak = 8617.766 ; gain = 27.867 ; free physical = 6685 ; free virtual = 11179
+restart
+INFO: [Wavedata 42-604] Simulation restarted
+run 35 ms
+=======================================================================
+Copyright (c) 2019-2024, EISL@NYCU, Hsinchu, Taiwan.
+The Aquila SoC is ready.
+Waiting for an ELF file to be sent from the UART ...
+
+Program entry point at 0x2F80, size = 0x8AD8.
+-----------------------------------------------------------------------
+coremark initializing ... executing, wait about 10 seconds ...
+
+2K performance run parameters for coremark.
+CoreMark Size    : 666
+Total ticks      : 49654
+Total time (secs): 0.049654
+Iterations/Sec   : 100.696822
+Iterations       : 5
+Compiler version : GCC13.2.0
+Compiler flags   : -Wall -O2 -I../elibc -fno-builtin -march=rv32ima_zicsr_zifencei -mstrict-align -mabi=ilp32 -fno-inline-small-functions -DITERATIONS=5 -DUSE_CLOCK=1
+Memory location  : HEAP
+seedcrc          : 0x0000e9f5
+[0]crclist       : 0x0000e714
+[0]crcmatrix     : 0x00001fd7
+[0]crcstate      : 0x00008e3a
+[0]crcfinal      : 0x0000f24c
+Correct operation validated. See README.md for run and reporting rules.
+CoreMark 1.0 : 100.696822 / GCC13.2.0 -Wall -O2 -I../elibc -fno-builtin -march=rv32ima_zicsr_zifencei -mstrict-align -mabi=ilp32 -fno-inline-small-functions -DITERATIONS=5 -DUSE_CLOCK=1 / HEAP
+function_name	running_time	store	load
+1	0	0	0
+2	0	0	0
+3	0	0	0
+4	0	0	0
+5	0	0	0
+-----------------------------------------------------------------------
+Program exit with a status code 0
+Press <reset> on the FPGA board to reboot the cpu ...
+
+
+Simulation finished.
+$finish called at time : 34924505 ns : File "/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.srcs/sim_1/imports/soc_rtl/soc_tb.v" Line 207
+run: Time (s): cpu = 00:01:19 ; elapsed = 00:03:32 . Memory (MB): peak = 8617.766 ; gain = 0.000 ; free physical = 7049 ; free virtual = 11906
+close_sim
+INFO: xsimkernel Simulation Memory Usage: 105804 KB (Peak: 164132 KB), Simulation CPU Usage: 211730 ms
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'soc_tb'
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-13660] Precompiled IP simulation library mode is enabled (default). The design IP libraries will be referenced from the compiled library path. Please note that if the precompiled version of the library is not found from the path or the IP is in locked state, then the library source files for these IPs will be compiled locally as part of the compile order.
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from '/vivado/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File '/vivado/Vivado/2023.2/data/xsim/xsim.ini' copied to run dir:'/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'soc_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported '/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.sim/sim_1/behav/xsim/uartboot.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.sim/sim_1/behav/xsim'
+xvlog --incr --relax -prj soc_tb_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.srcs/sources_1/imports/src/core_rtl/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.srcs/sources_1/imports/src/core_rtl/aquila_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module aquila_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.srcs/sources_1/imports/src/core_rtl/atomic_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module atomic_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.srcs/sources_1/imports/src/core_rtl/bcu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bcu
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.srcs/sources_1/imports/src/core_rtl/bpu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bpu
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.srcs/sources_1/imports/src/core_rtl/clint.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clint
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.srcs/sources_1/imports/src/core_rtl/core_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module core_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.srcs/sources_1/imports/src/core_rtl/csr_file.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module csr_file
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.srcs/sources_1/imports/src/core_rtl/decode.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decode
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.srcs/sources_1/imports/src/core_rtl/distri_ram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module distri_ram
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.srcs/sources_1/imports/src/core_rtl/execute.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module execute
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.srcs/sources_1/imports/src/core_rtl/fetch.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fetch
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.srcs/sources_1/imports/src/core_rtl/forwarding_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module forwarding_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.srcs/sources_1/imports/src/core_rtl/memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.srcs/sources_1/imports/src/core_rtl/muldiv.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module muldiv
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.srcs/sources_1/imports/src/core_rtl/pipeline_control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pipeline_control
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.srcs/sources_1/new/profile_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module profile_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.srcs/sources_1/imports/src/core_rtl/program_counter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module program_counter
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.srcs/sources_1/imports/src/core_rtl/reg_file.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module reg_file
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.srcs/sources_1/imports/src/core_rtl/sram_dp.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sram_dp
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.srcs/sources_1/imports/src/soc_rtl/uart.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.srcs/sources_1/imports/src/core_rtl/writeback.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module writeback
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.srcs/sim_1/imports/soc_rtl/soc_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module soc_tb
+Waiting for jobs to finish...
+No pending jobs, compilation finished.
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.sim/sim_1/behav/xsim'
+xelab --incr --debug typical --relax --mt 8 -d ARTY=true -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot soc_tb_behav xil_defaultlib.soc_tb xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: /vivado/Vivado/2023.2/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -d ARTY=true -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot soc_tb_behav xil_defaultlib.soc_tb xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-5021] port 'm_data_i' is not connected on this instance [/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.srcs/sources_1/imports/src/core_rtl/core_top.v:952]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.pipeline_control
+Compiling module xil_defaultlib.forwarding_unit
+Compiling module xil_defaultlib.distri_ram(ENTRY_NUM=64,XLEN=64)
+Compiling module xil_defaultlib.bpu_default
+Compiling module xil_defaultlib.reg_file_default
+Compiling module xil_defaultlib.program_counter
+Compiling module xil_defaultlib.fetch
+Compiling module xil_defaultlib.decode
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.muldiv
+Compiling module xil_defaultlib.bcu
+Compiling module xil_defaultlib.execute
+Compiling module xil_defaultlib.memory
+Compiling module xil_defaultlib.writeback
+Compiling module xil_defaultlib.csr_file
+Compiling module xil_defaultlib.profile_unit
+Compiling module xil_defaultlib.core_top
+Compiling module xil_defaultlib.sram_dp(N_ENTRIES=16384)
+Compiling module xil_defaultlib.clint
+Compiling module xil_defaultlib.atomic_unit
+Compiling module xil_defaultlib.aquila_top
+Compiling module xil_defaultlib.uart(BAUD=16'b01101100100)
+Compiling module xil_defaultlib.soc_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot soc_tb_behav
+execute_script: Time (s): cpu = 00:00:14 ; elapsed = 00:00:12 . Memory (MB): peak = 8722.066 ; gain = 0.000 ; free physical = 7081 ; free virtual = 11704
+INFO: [USF-XSim-69] 'elaborate' step finished in '12' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "soc_tb_behav -key {Behavioral:sim_1:Functional:soc_tb} -tclbatch {soc_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source soc_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'soc_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:26 ; elapsed = 00:00:21 . Memory (MB): peak = 8733.793 ; gain = 11.727 ; free physical = 7221 ; free virtual = 11717
+restart
+INFO: [Wavedata 42-604] Simulation restarted
+run 35 ms
+=======================================================================
+Copyright (c) 2019-2024, EISL@NYCU, Hsinchu, Taiwan.
+The Aquila SoC is ready.
+Waiting for an ELF file to be sent from the UART ...
+
+Program entry point at 0x3140, size = 0x8B94.
+-----------------------------------------------------------------------
+coremark initializing ... executing, wait about 10 seconds ...
+
+2K performance run parameters for coremark.
+CoreMark Size    : 666
+Total ticks      : 49653
+Total time (secs): 0.049653
+Iterations/Sec   : 100.698850
+Iterations       : 5
+Compiler version : GCC13.2.0
+Compiler flags   : -Wall -O2 -I../elibc -fno-builtin -march=rv32ima_zicsr_zifencei -mstrict-align -mabi=ilp32 -fno-inline-small-functions -DITERATIONS=5 -DUSE_CLOCK=1
+Memory location  : HEAP
+seedcrc          : 0x0000e9f5
+[0]crclist       : 0x0000e714
+[0]crcmatrix     : 0x00001fd7
+[0]crcstate      : 0x00008e3a
+[0]crcfinal      : 0x0000f24c
+Correct operation validated. See README.md for run and reporting rules.
+CoreMark 1.0 : 100.698850 / GCC13.2.0 -Wall -O2 -I../elibc -fno-builtin -march=rv32ima_zicsr_zifencei -mstrict-align -mabi=ilp32 -fno-inline-small-functions -DITERATIONS=5 -DUSE_CLOCK=1 / HEAP
+function_name	running_time	store	load
+1	0.run: Time (s): cpu = 00:00:56 ; elapsed = 00:03:13 . Memory (MB): peak = 8733.793 ; gain = 0.000 ; free physical = 7029 ; free virtual = 11888
+close_sim
+INFO: xsimkernel Simulation Memory Usage: 105804 KB (Peak: 164132 KB), Simulation CPU Usage: 193330 ms
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'soc_tb'
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-13660] Precompiled IP simulation library mode is enabled (default). The design IP libraries will be referenced from the compiled library path. Please note that if the precompiled version of the library is not found from the path or the IP is in locked state, then the library source files for these IPs will be compiled locally as part of the compile order.
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from '/vivado/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File '/vivado/Vivado/2023.2/data/xsim/xsim.ini' copied to run dir:'/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'soc_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported '/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.sim/sim_1/behav/xsim/uartboot.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [Vivado 12-5357] 'setup' step aborted
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'soc_tb'
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-13660] Precompiled IP simulation library mode is enabled (default). The design IP libraries will be referenced from the compiled library path. Please note that if the precompiled version of the library is not found from the path or the IP is in locked state, then the library source files for these IPs will be compiled locally as part of the compile order.
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from '/vivado/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File '/vivado/Vivado/2023.2/data/xsim/xsim.ini' copied to run dir:'/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'soc_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported '/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.sim/sim_1/behav/xsim/uartboot.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.sim/sim_1/behav/xsim'
+xvlog --incr --relax -prj soc_tb_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.srcs/sources_1/imports/src/core_rtl/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.srcs/sources_1/imports/src/core_rtl/aquila_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module aquila_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.srcs/sources_1/imports/src/core_rtl/atomic_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module atomic_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.srcs/sources_1/imports/src/core_rtl/bcu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bcu
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.srcs/sources_1/imports/src/core_rtl/bpu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bpu
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.srcs/sources_1/imports/src/core_rtl/clint.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clint
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.srcs/sources_1/imports/src/core_rtl/core_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module core_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.srcs/sources_1/imports/src/core_rtl/csr_file.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module csr_file
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.srcs/sources_1/imports/src/core_rtl/decode.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decode
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.srcs/sources_1/imports/src/core_rtl/distri_ram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module distri_ram
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.srcs/sources_1/imports/src/core_rtl/execute.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module execute
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.srcs/sources_1/imports/src/core_rtl/fetch.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fetch
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.srcs/sources_1/imports/src/core_rtl/forwarding_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module forwarding_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.srcs/sources_1/imports/src/core_rtl/memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.srcs/sources_1/imports/src/core_rtl/muldiv.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module muldiv
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.srcs/sources_1/imports/src/core_rtl/pipeline_control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pipeline_control
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.srcs/sources_1/new/profile_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module profile_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.srcs/sources_1/imports/src/core_rtl/program_counter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module program_counter
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.srcs/sources_1/imports/src/core_rtl/reg_file.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module reg_file
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.srcs/sources_1/imports/src/core_rtl/sram_dp.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sram_dp
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.srcs/sources_1/imports/src/soc_rtl/uart.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.srcs/sources_1/imports/src/core_rtl/writeback.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module writeback
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.srcs/sim_1/imports/soc_rtl/soc_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module soc_tb
+Waiting for jobs to finish...
+No pending jobs, compilation finished.
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.sim/sim_1/behav/xsim'
+xelab --incr --debug typical --relax --mt 8 -d ARTY=true -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot soc_tb_behav xil_defaultlib.soc_tb xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: /vivado/Vivado/2023.2/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -d ARTY=true -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot soc_tb_behav xil_defaultlib.soc_tb xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-5021] port 'm_data_i' is not connected on this instance [/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.srcs/sources_1/imports/src/core_rtl/core_top.v:952]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.pipeline_control
+Compiling module xil_defaultlib.forwarding_unit
+Compiling module xil_defaultlib.distri_ram(ENTRY_NUM=64,XLEN=64)
+Compiling module xil_defaultlib.bpu_default
+Compiling module xil_defaultlib.reg_file_default
+Compiling module xil_defaultlib.program_counter
+Compiling module xil_defaultlib.fetch
+Compiling module xil_defaultlib.decode
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.muldiv
+Compiling module xil_defaultlib.bcu
+Compiling module xil_defaultlib.execute
+Compiling module xil_defaultlib.memory
+Compiling module xil_defaultlib.writeback
+Compiling module xil_defaultlib.csr_file
+Compiling module xil_defaultlib.profile_unit
+Compiling module xil_defaultlib.core_top
+Compiling module xil_defaultlib.sram_dp(N_ENTRIES=16384)
+Compiling module xil_defaultlib.clint
+Compiling module xil_defaultlib.atomic_unit
+Compiling module xil_defaultlib.aquila_top
+Compiling module xil_defaultlib.uart(BAUD=16'b01101100100)
+Compiling module xil_defaultlib.soc_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot soc_tb_behav
+execute_script: Time (s): cpu = 00:00:12 ; elapsed = 00:00:10 . Memory (MB): peak = 8818.961 ; gain = 0.000 ; free physical = 7114 ; free virtual = 11737
+INFO: [USF-XSim-69] 'elaborate' step finished in '10' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "soc_tb_behav -key {Behavioral:sim_1:Functional:soc_tb} -tclbatch {soc_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source soc_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'soc_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:21 ; elapsed = 00:00:18 . Memory (MB): peak = 8829.824 ; gain = 10.863 ; free physical = 7245 ; free virtual = 11742
+restart
+INFO: [Wavedata 42-604] Simulation restarted
+restart
+INFO: [Wavedata 42-604] Simulation restarted
+run 35 ms
+=======================================================================
+Copyright (c) 2019-2024, EISL@NYCU, Hsinchu, Taiwan.
+The Aquila SoC is ready.
+Waiting for an ELF file to be sent from the UART ...
+
+Program entry point at 0x2F80, size = 0x8AF0.
+-----------------------------------------------------------------------
+coremark initializing ... executing, wait about 10 seconds ...
+
+2K performance run parameters for coremark.
+CoreMark Size    : 666
+Total ticks      : 49653
+Total time (secs): 0.049653
+Iterations/Sec   : 100.698850
+Iterations       : 5
+Compiler version : GCC13.2.0
+Compiler flags   : -Wall -O2 -I../elibc -fno-builtin -march=rv32ima_zicsr_zifencei -mstrict-align -mabi=ilp32 -fno-inline-small-functions -DITERATIONS=5 -DUSE_CLOCK=1
+Memory location  : HEAP
+seedcrc          : 0x0000e9f5
+[0]crclist       : 0x0000e714
+[0]crcmatrix     : 0x00001fd7
+[0]crcstate      : 0x00008e3a
+[0]crcfinal      : 0x0000f24c
+Correct operation validated. See README.md for run and reporting rules.
+CoreMark 1.0 : 100.698850 / GCC13.2.0 -Wall -O2 -I../elibc -fno-builtin -march=rv32ima_zicsr_zifencei -mstrict-align -mabi=ilp32 -fno-inline-small-functions -DITERATIONS=5 -DUSE_CLOCK=1 / HEAP
+function_name	running_time	store	load
+1	327671	0	87600
+2	221621	61200	30600
+3	450902	18160	50960
+4	427164	1640	43760
+5	304624	0	0
+total coremark cycle = 2562934-----------------------------------------------------------------------
+Program exit with a status code 0
+Press <reset> on the FPGA board to reboot the cpu ...
+
+
+Simulation finished.
+$finish called at time : 34997055 ns : File "/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.srcs/sim_1/imports/soc_rtl/soc_tb.v" Line 207
+run: Time (s): cpu = 00:01:00 ; elapsed = 00:03:16 . Memory (MB): peak = 8829.824 ; gain = 0.000 ; free physical = 7112 ; free virtual = 11972
+close_sim
+INFO: xsimkernel Simulation Memory Usage: 105804 KB (Peak: 164132 KB), Simulation CPU Usage: 195610 ms
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Sep 30 20:54:48 2024...

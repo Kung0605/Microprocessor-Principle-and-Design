@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:13:54 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Sat Oct  5 14:16:56 2024
+# Process ID: 14464
+# Current directory: /home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.runs/impl_1
+# Command line: vivado -log soc_top.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source soc_top.tcl -notrace
+# Log file: /home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.runs/impl_1/soc_top.vdi
+# Journal file: /home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.runs/impl_1/vivado.jou
+# Running On: LAPTOP-16OE0O8T, OS: Linux, CPU Frequency: 2419.196 MHz, CPU Physical cores: 4, Host memory: 12544 MB
+#-----------------------------------------------------------
+source soc_top.tcl -notrace

@@ -1,0 +1,31 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../aquila_mpd.srcs/sources_1/imports/src/core_rtl" --include "../../../../aquila_mpd.ip_user_files/ipstatic" -d "ARTY=true" \
+"../../../../aquila_mpd.srcs/sources_1/imports/src/core_rtl/alu.v" \
+"../../../../aquila_mpd.srcs/sources_1/imports/src/core_rtl/aquila_top.v" \
+"../../../../aquila_mpd.srcs/sources_1/imports/src/core_rtl/atomic_unit.v" \
+"../../../../aquila_mpd.srcs/sources_1/imports/src/core_rtl/bcu.v" \
+"../../../../aquila_mpd.srcs/sources_1/imports/src/core_rtl/bpu.v" \
+"../../../../aquila_mpd.srcs/sources_1/imports/src/core_rtl/clint.v" \
+"../../../../aquila_mpd.srcs/sources_1/imports/src/core_rtl/core_top.v" \
+"../../../../aquila_mpd.srcs/sources_1/imports/src/core_rtl/csr_file.v" \
+"../../../../aquila_mpd.srcs/sources_1/imports/src/core_rtl/decode.v" \
+"../../../../aquila_mpd.srcs/sources_1/imports/src/core_rtl/distri_ram.v" \
+"../../../../aquila_mpd.srcs/sources_1/imports/src/core_rtl/execute.v" \
+"../../../../aquila_mpd.srcs/sources_1/imports/src/core_rtl/fetch.v" \
+"../../../../aquila_mpd.srcs/sources_1/imports/src/core_rtl/forwarding_unit.v" \
+"../../../../aquila_mpd.srcs/sources_1/imports/src/core_rtl/memory.v" \
+"../../../../aquila_mpd.srcs/sources_1/imports/src/core_rtl/muldiv.v" \
+"../../../../aquila_mpd.srcs/sources_1/imports/src/core_rtl/pipeline_control.v" \
+"../../../../aquila_mpd.srcs/sources_1/new/profile_unit.v" \
+"../../../../aquila_mpd.srcs/sources_1/imports/src/core_rtl/program_counter.v" \
+"../../../../aquila_mpd.srcs/sources_1/imports/src/core_rtl/reg_file.v" \
+"../../../../aquila_mpd.srcs/sources_1/imports/src/core_rtl/sram_dp.v" \
+"../../../../aquila_mpd.srcs/sources_1/imports/src/soc_rtl/uart.v" \
+"../../../../aquila_mpd.srcs/sources_1/imports/src/core_rtl/writeback.v" \
+"../../../../aquila_mpd.srcs/sim_1/imports/soc_rtl/soc_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,52 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:13:54 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Mon Sep  9 17:29:48 2024
+# Process ID: 8282
+# Current directory: /home/kungtacheng/mpd/lab0/aquila_build/aquila_mpd
+# Command line: vivado aquila_mpd.xpr
+# Log file: /home/kungtacheng/mpd/lab0/aquila_build/aquila_mpd/vivado.log
+# Journal file: /home/kungtacheng/mpd/lab0/aquila_build/aquila_mpd/vivado.jou
+# Running On: LAPTOP-16OE0O8T, OS: Linux, CPU Frequency: 2419.199 MHz, CPU Physical cores: 4, Host memory: 12544 MB
+#-----------------------------------------------------------
+start_gui
+open_project aquila_mpd.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source soc_tb.tcl
+close_sim
+launch_simulation
+source soc_tb.tcl
+run all
+restart
+run all
+restart
+run all
+restart
+run all
+run 1 us
+restart
+restart
+run 1 ms
+restart
+run 35 ms
+current_wave_config {Untitled 2}
+add_wave {{/soc_tb/Aquila_SoC/RISCV_CORE0/Pipeline_Control/unsupported_instr_i}} {{/soc_tb/Aquila_SoC/RISCV_CORE0/Pipeline_Control/is_load_hazard}} {{/soc_tb/Aquila_SoC/RISCV_CORE0/Pipeline_Control/branch_hit_i}} {{/soc_tb/Aquila_SoC/RISCV_CORE0/Pipeline_Control/branch_taken_i}} {{/soc_tb/Aquila_SoC/RISCV_CORE0/Pipeline_Control/branch_misprediction_i}} {{/soc_tb/Aquila_SoC/RISCV_CORE0/Pipeline_Control/is_fencei_i}} {{/soc_tb/Aquila_SoC/RISCV_CORE0/Pipeline_Control/sys_jump_i}} {{/soc_tb/Aquila_SoC/RISCV_CORE0/Pipeline_Control/flush2fet_o}} {{/soc_tb/Aquila_SoC/RISCV_CORE0/Pipeline_Control/flush2dec_o}} {{/soc_tb/Aquila_SoC/RISCV_CORE0/Pipeline_Control/flush2exe_o}} {{/soc_tb/Aquila_SoC/RISCV_CORE0/Pipeline_Control/flush2mem_o}} {{/soc_tb/Aquila_SoC/RISCV_CORE0/Pipeline_Control/flush2wbk_o}} {{/soc_tb/Aquila_SoC/RISCV_CORE0/Pipeline_Control/data_hazard_o}} {{/soc_tb/Aquila_SoC/RISCV_CORE0/Pipeline_Control/branch_flush}} 
+current_wave_config {Untitled 2}
+add_wave {{/soc_tb/Aquila_SoC/RISCV_CORE0/Program_Counter/pc_o}} 
+restart
+run 35 ms
+restart
+run 35 ms
+current_wave_config {Untitled 2}
+add_wave {{/soc_tb/Aquila_SoC/RISCV_CORE0/stall_i}} {{/soc_tb/Aquila_SoC/RISCV_CORE0/stall_data_hazard}} {{/soc_tb/Aquila_SoC/RISCV_CORE0/stall_from_exe}} {{/soc_tb/Aquila_SoC/RISCV_CORE0/stall_instr_fetch}} {{/soc_tb/Aquila_SoC/RISCV_CORE0/stall_data_fetch}} {{/soc_tb/Aquila_SoC/RISCV_CORE0/stall_pipeline}} 
+restart
+run 35 ms
+current_wave_config {Untitled 2}
+add_wave {{/soc_tb/Aquila_SoC/RISCV_CORE0/exe_re}} 
+current_wave_config {Untitled 2}
+add_wave {{/soc_tb/Aquila_SoC/RISCV_CORE0/exe_we}} 
+restart
+run 35 ms

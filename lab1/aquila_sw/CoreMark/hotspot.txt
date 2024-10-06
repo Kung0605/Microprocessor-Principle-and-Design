@@ -1,0 +1,17 @@
+assign in_coremark = (finished_pc_i >= 32'h00001000) && (finished_pc_i <= 32'h00006614);
+
+// core_list_find()
+assign hotspot_start_addr[0] = 32'h00001dfc;
+assign hotspot_end_addr[0]   = 32'h00001e50;
+// core_list_reverse()
+assign hotspot_start_addr[1] = 32'h00001e50;
+assign hotspot_end_addr[1]   = 32'h00001e74;
+// core_state_transition()
+assign hotspot_start_addr[2] = 32'h00002af4;
+assign hotspot_end_addr[2]   = 32'h00002de0;
+// matrix_mul_matrix_bitextract()
+assign hotspot_start_addr[3] = 32'h00002750;
+assign hotspot_end_addr[3]   = 32'h00002810;
+// crcu8()
+assign hotspot_start_addr[4] = 32'h00001ab4;
+assign hotspot_end_addr[4]   = 32'h00001afc;

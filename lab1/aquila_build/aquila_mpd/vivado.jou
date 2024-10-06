@@ -1,0 +1,30 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:13:54 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Sat Oct  5 14:03:47 2024
+# Process ID: 9979
+# Current directory: /home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd
+# Command line: vivado aquila_mpd.xpr
+# Log file: /home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/vivado.log
+# Journal file: /home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/vivado.jou
+# Running On: LAPTOP-16OE0O8T, OS: Linux, CPU Frequency: 2419.196 MHz, CPU Physical cores: 4, Host memory: 12544 MB
+#-----------------------------------------------------------
+start_gui
+open_project aquila_mpd.xpr
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.runs/impl_1/soc_top.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {/home/kungtacheng/mpd/lab1/aquila_build/aquila_mpd/aquila_mpd.runs/impl_1/soc_top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]

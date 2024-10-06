@@ -1,0 +1,606 @@
+Time resolution is 1 ps
+=======================================================================
+Copyright (c) 2019-2024, EISL@NYCU, Hsinchu, Taiwan.
+The Aquila SoC is ready.
+Waiting for an ELF file to be sent from the UART ...
+=======================================================================
+Copyright (c) 2019-2024, EISL@NYCU, Hsinchu, Taiwan.
+The Aquila SoC is ready.
+Waiting for an ELF file to be sent from the UART ...
+
+Program entry point at 0x1A70, size = 0x9FF8.
+-----------------------------------------------------------------------
+
+Dhrystone Benchmark, Version 2.1 (Language: C)
+
+Program compiled without 'register' attribute
+
+Execution starts, 10 runs through Dhrystone
+Execution ends
+
+Final values of the variables used in the benchmark:
+
+Int_Glob:            5
+        should be:   5
+Bool_Glob:           1
+        should be:   1
+Ch_1_Glob:           c
+        should be:   c
+Ch_2_Glob:           c
+        should be:   c
+Arr_1_Glob[8]:       7
+        should be:   7
+Arr_2_Glob[8][7]:    20
+        should be:   Number_Of_Runs + 10
+Ptr_Glob->
+  Ptr_Comp:          45412
+        should be:   (implementation-dependent)
+  Discr:             0
+        should be:   0
+  Enum_Comp:         2
+        should be:   2
+  Int_Comp:          17
+        should be:   17
+  Str_Comp:          DHRYSTONE PROGRAM, SOME STRING
+        should be:   DHRYSTONE PROGRAM, SOME STRING
+Next_Ptr_Glob->
+  Ptr_Comp:          45412
+        should be:   (implementation-dependent), same as above
+  Discr:             0
+        should be:   0
+  Enum_Comp:         1
+        should be:   1
+  Int_Comp:          18
+        should be:   18
+  Str_Comp:          DHRYSTONE PROGRAM, SOME STRING
+        should be:   DHRYSTONE PROGRAM, SOME STRING
+Int_1_Loc:           5
+        should be:   5
+Int_2_Loc:           13
+        should be:   13
+Int_3_Loc:           7
+        should be:   7
+Enum_Loc:            1
+        should be:   1
+Str_1_Loc:           DHRYSTONE PROGRAM, 1'ST STRING
+        should be:   DHRYSTONE PROGRAM, 1'ST STRING
+Str_2_Loc:           DHRYSTONE PROGRAM, 2'ND STRING
+        should be:   DHRYSTONE PROGRAM, 2'ND STRING
+
+It tooks     0.00 seconds.
+Microseconds for one run through Dhrystone: 15.200000 
+Dhrystones per Second:                      65789.5 
+VAX MIPS:                                     37.4 
+DMIPS/Mhz:                                     0.75
+
+Simulation finished.
+$finish called at time : 11987495 ns : File "/home/kungtacheng/mpd/lab0/aquila_build/aquila_mpd/aquila_mpd.srcs/sim_1/imports/soc_rtl/soc_tb.v" Line 207
+=======================================================================
+Copyright (c) 2019-2024, EISL@NYCU, Hsinchu, Taiwan.
+The Aquila SoC is ready.
+Waiting for an ELF file to be sent from the UART ...
+
+Program entry point at 0x1A70, size = 0x9FF8.
+-----------------------------------------------------------------------
+
+Dhrystone Benchmark, Version 2.1 (Language: C)
+
+Program compiled without 'register' attribute
+
+Execution starts, 10 runs through Dhrystone
+Execution ends
+
+Final values of the variables used in the benchmark:
+
+Int_Glob:            5
+        should be:   5
+Bool_Glob:           1
+        should be:   1
+Ch_1_Glob:           c
+        should be:   c
+Ch_2_Glob:           c
+        should be:   c
+Arr_1_Glob[8]:       7
+        should be:   7
+Arr_2_Glob[8][7]:    20
+        should be:   Number_Of_Runs + 10
+Ptr_Glob->
+  Ptr_Comp:          45412
+        should be:   (implementation-dependent)
+  Discr:             0
+        should be:   0
+  Enum_Comp:         2
+        should be:   2
+  Int_Comp:          17
+        should be:   17
+  Str_Comp:          DHRYSTONE PROGRAM, SOME STRING
+        should be:   DHRYSTONE PROGRAM, SOME STRING
+Next_Ptr_Glob->
+  Ptr_Comp:          45412
+        should be:   (implementation-dependent), same as above
+  Discr:             0
+        should be:   0
+  Enum_Comp:         1
+        should be:   1
+  Int_Comp:          18
+        should be:   18
+  Str_Comp:          DHRYSTONE PROGRAM, SOME STRING
+        should be:   DHRYSTONE PROGRAM, SOME STRING
+Int_1_Loc:           5
+        should be:   5
+Int_2_Loc:           13
+        should be:   13
+Int_3_Loc:           7
+        should be:   7
+Enum_Loc:            1
+        should be:   1
+Str_1_Loc:           DHRYSTONE PROGRAM, 1'ST STRING
+        should be:   DHRYSTONE PROGRAM, 1'ST STRING
+Str_2_Loc:           DHRYSTONE PROGRAM, 2'ND STRING
+        should be:   DHRYSTONE PROGRAM, 2'ND STRING
+
+It tooks     0.00 seconds.
+Microseconds for one run through Dhrystone: 15.200000 
+Dhrystones per Second:                      65789.5 
+VAX MIPS:                                     37.4 
+DMIPS/Mhz:                                     0.75
+
+Simulation finished.
+$finish called at time : 11987495 ns : File "/home/kungtacheng/mpd/lab0/aquila_build/aquila_mpd/aquila_mpd.srcs/sim_1/imports/soc_rtl/soc_tb.v" Line 207
+=======================================================================
+Copyright (c) 2019-2024, EISL@NYCU, Hsinchu, Taiwan.
+The Aquila SoC is ready.
+Waiting for an ELF file to be sent from the UART ...
+
+Program entry point at 0x1A70, size = 0x9FF8.
+-----------------------------------------------------------------------
+
+Dhrystone Benchmark, Version 2.1 (Language: C)
+
+Program compiled without 'register' attribute
+
+Execution starts, 10 runs through Dhrystone
+Execution ends
+
+Final values of the variables used in the benchmark:
+
+Int_Glob:            5
+        should be:   5
+Bool_Glob:           1
+        should be:   1
+Ch_1_Glob:           c
+        should be:   c
+Ch_2_Glob:           c
+        should be:   c
+Arr_1_Glob[8]:       7
+        should be:   7
+Arr_2_Glob[8][7]:    20
+        should be:   Number_Of_Runs + 10
+Ptr_Glob->
+  Ptr_Comp:          45412
+        should be:   (implementation-dependent)
+  Discr:             0
+        should be:   0
+  Enum_Comp:         2
+        should be:   2
+  Int_Comp:          17
+        should be:   17
+  Str_Comp:          DHRYSTONE PROGRAM, SOME STRING
+        should be:   DHRYSTONE PROGRAM, SOME STRING
+Next_Ptr_Glob->
+  Ptr_Comp:          45412
+        should be:   (implementation-dependent), same as above
+  Discr:             0
+        should be:   0
+  Enum_Comp:         1
+        should be:   1
+  Int_Comp:          18
+        should be:   18
+  Str_Comp:          DHRYSTONE PROGRAM, SOME STRING
+        should be:   DHRYSTONE PROGRAM, SOME STRING
+Int_1_Loc:           5
+        should be:   5
+Int_2_Loc:           13
+        should be:   13
+Int_3_Loc:           7
+        should be:   7
+Enum_Loc:            1
+        should be:   1
+Str_1_Loc:           DHRYSTONE PROGRAM, 1'ST STRING
+        should be:   DHRYSTONE PROGRAM, 1'ST STRING
+Str_2_Loc:           DHRYSTONE PROGRAM, 2'ND STRING
+        should be:   DHRYSTONE PROGRAM, 2'ND STRING
+
+It tooks     0.00 seconds.
+Microseconds for one run through Dhrystone: 15.200000 
+Dhrystones per Second:                      65789.5 
+VAX MIPS:                                     37.4 
+DMIPS/Mhz:                                     0.75
+
+Simulation finished.
+$finish called at time : 11987495 ns : File "/home/kungtacheng/mpd/lab0/aquila_build/aquila_mpd/aquila_mpd.srcs/sim_1/imports/soc_rtl/soc_tb.v" Line 207
+=======================================================================
+Copyright (c) 2019-2024, EISL@NYCU, Hsinchu, Taiwan.
+The Aquila SoC is ready.
+Waiting for an ELF file to be sent from the UART ...
+
+Program entry point at 0x1A70, size = 0x9FF8.
+-----------------------------------------------------------------------
+
+Dhrystone Benchmark, Version 2.1 (Language: C)
+
+Program compiled without 'register' attribute
+
+Execution starts, 10 runs through Dhrystone
+Execution ends
+
+Final values of the variables used in the benchmark:
+
+Int_Glob:            5
+        should be:   5
+Bool_Glob:           1
+        should be:   1
+Ch_1_Glob:           c
+        should be:   c
+Ch_2_Glob:           c
+        should be:   c
+Arr_1_Glob[8]:       7
+        should be:   7
+Arr_2_Glob[8][7]:    20
+        should be:   Number_Of_Runs + 10
+Ptr_Glob->
+  Ptr_Comp:          45412
+        should be:   (implementation-dependent)
+  Discr:             0
+        should be:   0
+  Enum_Comp:         2
+        should be:   2
+  Int_Comp:          17
+        should be:   17
+  Str_Comp:          DHRYSTONE PROGRAM, SOME STRING
+        should be:   DHRYSTONE PROGRAM, SOME STRING
+Next_Ptr_Glob->
+  Ptr_Comp:          45412
+        should be:   (implementation-dependent), same as above
+  Discr:             0
+        should be:   0
+  Enum_Comp:         1
+        should be:   1
+  Int_Comp:          18
+        should be:   18
+  Str_Comp:          DHRYSTONE PROGRAM, SOME STRING
+        should be:   DHRYSTONE PROGRAM, SOME STRING
+Int_1_Loc:           5
+        should be:   5
+Int_2_Loc:           13
+        should be:   13
+Int_3_Loc:           7
+        should be:   7
+Enum_Loc:            1
+        should be:   1
+Str_1_Loc:           DHRYSTONE PROGRAM, 1'ST STRING
+        should be:   DHRYSTONE PROGRAM, 1'ST STRING
+Str_2_Loc:           DHRYSTONE PROGRAM, 2'ND STRING
+        should be:   DHRYSTONE PROGRAM, 2'ND STRING
+
+It tooks     0.00 seconds.
+Microseconds for one run through Dhrystone: 12.000000 
+Dhrystones per Second:                      83333.3 
+VAX MIPS:                                     47.4 
+DMIPS/Mhz:                                     0.95
+
+Simulation finished.
+$finish called at time : 12033115 ns : File "/home/kungtacheng/mpd/lab0/aquila_build/aquila_mpd/aquila_mpd.srcs/sim_1/imports/soc_rtl/soc_tb.v" Line 207
+=======================================================================
+Copyright (c) 2019-2024, EISL@NYCU, Hsinchu, Taiwan.
+The Aquila SoC is ready.
+Waiting for an ELF file to be sent from the UART ...
+
+Program entry point at 0x1A70, size = 0x9FF8.
+-----------------------------------------------------------------------
+
+Dhrystone Benchmark, Version 2.1 (Language: C)
+
+Program compiled without 'register' attribute
+
+Execution starts, 10 runs through Dhrystone
+Execution ends
+
+Final values of the variables used in the benchmark:
+
+Int_Glob:            5
+        should be:   5
+Bool_Glob:           1
+        should be:   1
+Ch_1_Glob:           c
+        should be:   c
+Ch_2_Glob:           c
+        should be:   c
+Arr_1_Glob[8]:       7
+        should be:   7
+Arr_2_Glob[8][7]:    20
+        should be:   Number_Of_Runs + 10
+Ptr_Glob->
+  Ptr_Comp:          45412
+        should be:   (implementation-dependent)
+  Discr:             0
+        should be:   0
+  Enum_Comp:         2
+        should be:   2
+  Int_Comp:          17
+        should be:   17
+  Str_Comp:          DHRYSTONE PROGRAM, SOME STRING
+        should be:   DHRYSTONE PROGRAM, SOME STRING
+Next_Ptr_Glob->
+  Ptr_Comp:          45412
+        should be:   (implementation-dependent), same as above
+  Discr:             0
+        should be:   0
+  Enum_Comp:         1
+        should be:   1
+  Int_Comp:          18
+        should be:   18
+  Str_Comp:          DHRYSTONE PROGRAM, SOME STRING
+        should be:   DHRYSTONE PROGRAM, SOME STRING
+Int_1_Loc:           5
+        should be:   5
+Int_2_Loc:           13
+        should be:   13
+Int_3_Loc:           7
+        should be:   7
+Enum_Loc:            1
+        should be:   1
+Str_1_Loc:           DHRYSTONE PROGRAM, 1'ST STRING
+        should be:   DHRYSTONE PROGRAM, 1'ST STRING
+Str_2_Loc:           DHRYSTONE PROGRAM, 2'ND STRING
+        should be:   DHRYSTONE PROGRAM, 2'ND STRING
+
+It tooks     0.00 seconds.
+Microseconds for one run through Dhrystone: 15.000000 
+Dhrystones per Second:                      66666.7 
+VAX MIPS:                                     37.9 
+DMIPS/Mhz:                                     0.76
+
+Simulation finished.
+$finish called at time : 11984455 ns : File "/home/kungtacheng/mpd/lab0/aquila_build/aquila_mpd/aquila_mpd.srcs/sim_1/imports/soc_rtl/soc_tb.v" Line 207
+=======================================================================
+Copyright (c) 2019-2024, EISL@NYCU, Hsinchu, Taiwan.
+The Aquila SoC is ready.
+Waiting for an ELF file to be sent from the UART ...
+
+Program entry point at 0x1A70, size = 0x9FF8.
+-----------------------------------------------------------------------
+
+Dhrystone Benchmark, Version 2.1 (Language: C)
+
+Program compiled without 'register' attribute
+
+Execution starts, 10 runs through Dhrystone
+Execution ends
+
+Final values of the variables used in the benchmark:
+
+Int_Glob:            5
+        should be:   5
+Bool_Glob:           1
+        should be:   1
+Ch_1_Glob:           c
+        should be:   c
+Ch_2_Glob:           c
+        should be:   c
+Arr_1_Glob[8]:       7
+        should be:   7
+Arr_2_Glob[8][7]:    20
+        should be:   Number_Of_Runs + 10
+Ptr_Glob->
+  Ptr_Comp:          45412
+        should be:   (implementation-dependent)
+  Discr:             0
+        should be:   0
+  Enum_Comp:         2
+        should be:   2
+  Int_Comp:          17
+        should be:   17
+  Str_Comp:          DHRYSTONE PROGRAM, SOME STRING
+        should be:   DHRYSTONE PROGRAM, SOME STRING
+Next_Ptr_Glob->
+  Ptr_Comp:          45412
+        should be:   (implementation-dependent), same as above
+  Discr:             0
+        should be:   0
+  Enum_Comp:         1
+        should be:   1
+  Int_Comp:          18
+        should be:   18
+  Str_Comp:          DHRYSTONE PROGRAM, SOME STRING
+        should be:   DHRYSTONE PROGRAM, SOME STRING
+Int_1_Loc:           5
+        should be:   5
+Int_2_Loc:           13
+        should be:   13
+Int_3_Loc:           7
+        should be:   7
+Enum_Loc:            1
+        should be:   1
+Str_1_Loc:           DHRYSTONE PROGRAM, 1'ST STRING
+        should be:   DHRYSTONE PROGRAM, 1'ST STRING
+Str_2_Loc:           DHRYSTONE PROGRAM, 2'ND STRING
+        should be:   DHRYSTONE PROGRAM, 2'ND STRING
+
+It tooks     0.00 seconds.
+Microseconds for one run through Dhrystone: 15.000000 
+Dhrystones per Second:                      66666.7 
+VAX MIPS:                                     37.9 
+DMIPS/Mhz:                                     0.76
+
+Simulation finished.
+$finish called at time : 11983215 ns : File "/home/kungtacheng/mpd/lab0/aquila_build/aquila_mpd/aquila_mpd.srcs/sim_1/imports/soc_rtl/soc_tb.v" Line 207
+=======================================================================
+Copyright (c) 2019-2024, EISL@NYCU, Hsinchu, Taiwan.
+The Aquila SoC is ready.
+Waiting for an ELF file to be sent from the UART ...
+
+Program entry point at 0x1A70, size = 0xA004.
+-----------------------------------------------------------------------
+hi here
+hi here
+
+Dhrystone Benchmark, Version 2.1 (Language: C)
+
+Program compiled without 'register' attribute
+
+Execution starts, 10 runs through Dhrystone
+hi here
+hi here
+hi here
+hi here
+hi here
+hi here
+hi here
+hi here
+hi here
+hi here
+Execution ends
+
+Final values of the variables used in the benchmark:
+
+Int_Glob:            5
+        should be:   5
+Bool_Glob:           1
+        should be:   1
+Ch_1_Glob:           c
+        should be:   c
+Ch_2_Glob:           c
+        should be:   c
+Arr_1_Glob[8]:       7
+        should be:   7
+Arr_2_Glob[8][7]:    20
+        should be:   Number_Of_Runs + 10
+Ptr_Glob->
+  Ptr_Comp:          45428
+        should be:   (implementation-dependent)
+  Discr:             0
+        should be:   0
+  Enum_Comp:         2
+        should be:   2
+  Int_Comp:          17
+        should be:   17
+  Str_Comp:          DHRYSTONE PROGRAM, SOME STRING
+        should be:   DHRYSTONE PROGRAM, SOME STRING
+Next_Ptr_Glob->
+  Ptr_Comp:          45428
+        should be:   (implementation-dependent), same as above
+  Discr:             0
+        should be:   0
+  Enum_Comp:         1
+        should be:   1
+  Int_Comp:          18
+        should be:   18
+  Str_Comp:          DHRYSTONE PROGRAM, SOME STRING
+        should be:   DHRYSTONE PROGRAM, SOME STRING
+Int_1_Loc:           5
+        should be:   5
+Int_2_Loc:           13
+        should be:   13
+Int_3_Loc:           7
+        should be:   7
+Enum_Loc:            1
+        should be:   1
+Str_1_Loc:           DHRYSTONE PROGRAM, 1'ST STRING
+        should be:   DHRYSTONE PROGRAM, 1'ST STRING
+Str_2_Loc:           DHRYSTONE PROGRAM, 2'ND STRING
+        should be:   DHRYSTONE PROGRAM, 2'ND STRING
+
+It tooks     0.00 seconds.
+Microseconds for one run through Dhrystone: 20.900000 
+Dhrystones per Second:                      47846.9 
+VAX MIPS:                                     27.2 
+DMIPS/Mhz:                                     0.54
+
+Simulation finished.
+$finish called at time : 12034295 ns : File "/home/kungtacheng/mpd/lab0/aquila_build/aquila_mpd/aquila_mpd.srcs/sim_1/imports/soc_rtl/soc_tb.v" Line 207
+=======================================================================
+Copyright (c) 2019-2024, EISL@NYCU, Hsinchu, Taiwan.
+The Aquila SoC is ready.
+Waiting for an ELF file to be sent from the UART ...
+
+Program entry point at 0x1A70, size = 0xA004.
+-----------------------------------------------------------------------
+hi here
+hi here
+
+Dhrystone Benchmark, Version 2.1 (Language: C)
+
+Program compiled without 'register' attribute
+
+Execution starts, 10 runs through Dhrystone
+hi here
+hi here
+hi here
+hi here
+hi here
+hi here
+hi here
+hi here
+hi here
+hi here
+Execution ends
+
+Final values of the variables used in the benchmark:
+
+Int_Glob:            5
+        should be:   5
+Bool_Glob:           1
+        should be:   1
+Ch_1_Glob:           c
+        should be:   c
+Ch_2_Glob:           c
+        should be:   c
+Arr_1_Glob[8]:       7
+        should be:   7
+Arr_2_Glob[8][7]:    20
+        should be:   Number_Of_Runs + 10
+Ptr_Glob->
+  Ptr_Comp:          45428
+        should be:   (implementation-dependent)
+  Discr:             0
+        should be:   0
+  Enum_Comp:         2
+        should be:   2
+  Int_Comp:          17
+        should be:   17
+  Str_Comp:          DHRYSTONE PROGRAM, SOME STRING
+        should be:   DHRYSTONE PROGRAM, SOME STRING
+Next_Ptr_Glob->
+  Ptr_Comp:          45428
+        should be:   (implementation-dependent), same as above
+  Discr:             0
+        should be:   0
+  Enum_Comp:         1
+        should be:   1
+  Int_Comp:          18
+        should be:   18
+  Str_Comp:          DHRYSTONE PROGRAM, SOME STRING
+        should be:   DHRYSTONE PROGRAM, SOME STRING
+Int_1_Loc:           5
+        should be:   5
+Int_2_Loc:           13
+        should be:   13
+Int_3_Loc:           7
+        should be:   7
+Enum_Loc:            1
+        should be:   1
+Str_1_Loc:           DHRYSTONE PROGRAM, 1'ST STRING
+        should be:   DHRYSTONE PROGRAM, 1'ST STRING
+Str_2_Loc:           DHRYSTONE PROGRAM, 2'ND STRING
+        should be:   DHRYSTONE PROGRAM, 2'ND STRING
+
+It tooks     0.00 seconds.
+Microseconds for one run through Dhrystone: 20.900000 
+Dhrystones per Second:                      47846.9 
+VAX MIPS:                                     27.2 
+DMIPS/Mhz:                                     0.54
+
+Simulation finished.
+$finish called at time : 12034295 ns : File "/home/kungtacheng/mpd/lab0/aquila_build/aquila_mpd/aquila_mpd.srcs/sim_1/imports/soc_rtl/soc_tb.v" Line 207
+INFO: xsimkernel Simulation Memory Usage: 105784 KB (Peak: 164104 KB), Simulation CPU Usage: 589190 ms
